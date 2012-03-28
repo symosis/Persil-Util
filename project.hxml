@@ -1,0 +1,9 @@
+-js release/test/js_test.js
+-main TestMain
+-cp construct/src
+-cp construct/src_test
+-lib munit
+-lib hamcrest
+-lib mcover
+--macro m.cover.MCover.coverage(['persil.util'], ['construct/src'], null)
+-D MCOVER
