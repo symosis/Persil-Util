@@ -4,6 +4,11 @@
 -cp construct/src_test
 -lib munit
 -lib hamcrest
--lib mcover
---macro m.cover.MCover.coverage(['persil.util'], ['construct/src'], null)
--D MCOVER
+
+--next
+-swf release/test/as3_test.swf
+-main TestMain
+-cp construct/src
+-cp construct/src_test
+-lib munit
+-lib hamcrest
